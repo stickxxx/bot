@@ -79,12 +79,12 @@ bot:Zone a owl:Class ;
     "Zon"@se ,
     "Zone"@fr ;
   rdfs:comment
-    "A spatial 3D division. Sub-classes of bot:Zones include bot:Site, bot:Building, bot:Storey, or bot:Space. An instance of bot:Zone can contain other bot:Zone instances, making it possible to group or subdivide zones. An instance of bot:Zone can be adjacent to other bot:Zone instances. Finally, a bot:Zone can instantiate two relations to bot:Element, which are either contained in (bot:containsElement), or adjacent to it (bot:adjacentElement)."@en ,
+    "A spatial 3D division. Sub-classes of bot:Zone include bot:Site, bot:Building, bot:Storey, or bot:Space. An instance of bot:Zone can contain other bot:Zone instances, making it possible to group or subdivide zones. An instance of bot:Zone can be adjacent to other bot:Zone instances. Finally, a bot:Zone can instantiate two relations to bot:Element, which are either contained in (bot:containsElement), or adjacent to it (bot:adjacentElement)."@en ,
     "Una área o espacio de tierra que tiene una característica, propósito o uso particular, o que está sujeto a restricciones particulares. Un bot:Zone puede contener otros bot:Zones definidos mediante la relación bot:containsZone, y puede estar conectado con otros bot:Zones mediante la relación bot:adjacentZone."@es ,
     "En rummelig 3D-inddeling. Underklasser af bot:Zone inkluderer bot:Site, bot:Building, bot:Storey eller bot:Space. En bot:Zone forekomst kan indeholde andre bot:Zone forekomster, hvilket gør det muligt at gruppere eller underinddele zoner. En forekomst af bot:Zone kan være tilstødende til andre bot:Zone forekomster. Endelig kan en bot:Zone instantiere to relationer til et bot:Element, hvilke er enten indeholdt i (bot:containsElement) eller tilstødende dertil (bot:adjacentElement)."@da ,
     "En area eller ett stycke land som har en specifik karaktäristik, syfte, användning eller är förmål för specifika restriktioner. En bot:Zone kan innehålla andra bot:Zoner genom relationen bot:containsZone, och den kan kopplas till andra bot:Zoner genom relationen bot:adjacentZone."@se ,
     "Een gebied of stuk land dat een dat een bepaalde karakteristiek of bestemming heeft, ergens voor gebruikt wordt of waar bepaalde restricties gelden. Een bot:Zone kan andere bot:Zones bevatten gedefinieerd door de relatie bot:containsZone, en kan verbonden zijn met andere bot:Zones gedefinieerd door de relatie bot:adjacentZone."@nl ,
-    "Une zone ou une étendue de terrain avec des caractéristiques et usages spécifiques, ou pouvant être sujette à des restrictions spécifiques. Un élément bot:Zone peut contenir d'autres éléments bot:Zone comme défini par la relation bot:containsZone. La connection entre plusieurs éléments bot:Zone est définie en utilisant la propriété bot:adjacentZone."@fr ;
+    "Une division spatiale 3D. Les sous-classes de bot:Zone comprennent: bot:Site, bot:Building, bot:Storey et bot:Space. Une instance de bot:Zone peut contenir plusieurs autres instances bot:Zone, permettant de grouper ou de diviser des zones. Une instance de bot:Zone peut êre adjacente à d'autres instances bot:Zone. bot:Zone peut instantier deux relations vers bot:Element, soit de type contenance (bot:containsElement) ou de type adjacence (bot:adjacentElement)."@fr ;
   owl:disjointWith
     bot:Element ,
     bot:Interface ;
@@ -106,7 +106,7 @@ bot:Zone a owl:Class ;
       "En plats som rymmer en eller flera byggnader."@se ,
       "Omgeving die één of meerdere gebouwen bevat."@nl ,
       "Abgegrenzter Teil der Erdoberfläche auf dem ein oder mehrere Gebäude stehen."@de ,
-      "Un site comprend un ou plusieurs bâtiments"@fr ;
+      "Un site comprennant un ou plusieurs bâtiments"@fr ;
     rdfs:subClassOf bot:Zone ;
     owl:disjointWith
       bot:Building ,
